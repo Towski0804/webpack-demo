@@ -14,5 +14,8 @@
   "scripts": {
     "start": "webpack serve --open",
     "build": "rm -rf dist; webpack"
+  },
+  "devDependencies": {
+    "mini-css-extract-plugin": "^2.7.6"
   }
 }
