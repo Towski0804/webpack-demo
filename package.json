@@ -16,6 +16,9 @@
     "build": "rm -rf dist; webpack --config webpack.config.production.js"
   },
   "devDependencies": {
-    "mini-css-extract-plugin": "^2.7.6"
+    "dart-sass": "^1.25.0",
+    "file-loader": "^6.2.0",
+    "mini-css-extract-plugin": "^2.7.6",
+    "sass-loader": "^13.3.2"
   }
 }
